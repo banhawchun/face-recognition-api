@@ -14,7 +14,7 @@ const image = require('./controllers/image');
  	connection: {
  	 	connectionString: process.env.DATABASE_URL,
  	 	ssl: {
- 	 	 	rejectUnauthorized: true
+ 	 	 	rejectUnauthorized: false
  	 	},
  	}
  })
